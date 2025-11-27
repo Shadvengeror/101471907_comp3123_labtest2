@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import WeatherCard from "./WeatherCard";
+import './App.css';
 
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
@@ -55,4 +56,3 @@ function App() {
 }
 
 export default App;
-import './App.css';
